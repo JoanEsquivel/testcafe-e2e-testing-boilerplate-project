@@ -1,0 +1,17 @@
+{
+  "name": "testcafe2.0",
+  "version": "1.0.0",
+  "description": "TestCafe template framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "testcafe"
+  ],
+  "author": "joan esquivel",
+  "license": "ISC",
+  "devDependencies": {
+    "testcafe": "^2.0.0"
+  }
+}

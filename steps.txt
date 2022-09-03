@@ -1,0 +1,40 @@
+What is new?
+- Base URL
+- Supports typescript 4
+- Supports API testing
+- Better documentation
+
+NOTE: DEMO is just for demonstration of how to use testcafe. There are more scenarios, better ways to use sensitve data, and more details that can be improved.
+
+
+1- npm init
+2- npm i --save-dev testcafe && Globally: npm install -g testcafe
+3- create a /tests
+4- create a login.js
+5- test structure: https://testcafe.io/documentation/402831/guides/basic-guides/test-structure
+6- fixture
+7- absolute url 
+8- create a test
+9- what is t? -> Stands for Test Controller, The test controller object exposes the test API’s methods. -> https://testcafe.io/documentation/402665/reference/test-api/testcontroller
+10- type text
+11- click
+12- title assertion
+13- open cmd and run testcafe chrome tests/login.js
+14- relative url
+14- create a configuration file in the root: .testcaferc.js -> https://testcafe.io/documentation/402638/reference/configuration-file#configuration-conflicts
+15- Setup the base url and use it in the test
+16- Create a second test with invalid username
+17- Implict test controller usage with Page Objects -> https://testcafe.io/documentation/402665/reference/test-api/testcontroller
+18- Construct the page object
+19- import it and use it
+20- How to debug a test? -> https://testcafe.io/documentation/402835/guides/basic-guides/debug-tests
+20- Screenshots -> https://testcafe.io/documentation/402835/guides/basic-guides/debug-tests
+21- Concurrency: Enable concurrent mode to run multiple browser instances simultaneously. ->  https://testcafe.io/documentation/402963/guides/best-practices/speed-up-test-execution
+22- Headless mode: Chrome﻿ and Firefox﻿ include headless mode — a less resource-intensive way to run TestCafe. 
+    Headless browsers don’t display their GUI, making it possible to run them without a GPU. Even then, you can still take screenshots and resize the browser window in headless mode.
+    COMMAND: testcafe "chrome:headless" tests/loginPomScreenshot.js
+23- Emulate mobile device viewports: https://testcafe.io/documentation/403584/guides/intermediate-guides/mobile-devices-cloud-browsers-and-emulation
+    COMMAND: testcafe "chrome:emulation:device=iphone X" tests/loginPomScreenshot.js
+24- Test Reports? Need an implementation -> https://testcafe.io/documentation/402825/guides/concepts/reporters
+25- API testing: https://testcafe.io/documentation/403971/guides/intermediate-guides/api-testing
+
